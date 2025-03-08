@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "generate-html": "mkdir -p dist && cp index.html dist/",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
